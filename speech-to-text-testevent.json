@@ -1,0 +1,38 @@
+{
+    "Records": [
+      {
+        "eventVersion": "2.1",
+        "eventSource": "aws:s3",
+        "awsRegion": "us-east-1",
+        "eventTime": "2024-05-13T17:17:41.700Z",
+        "eventName": "ObjectCreated:Put",
+        "userIdentity": {
+          "principalId": "A10Q75PPVR1IXI"
+        },
+        "requestParameters": {
+          "sourceIPAddress": "27.59.204.124"
+        },
+        "responseElements": {
+          "x-amz-request-id": "2ZVYPRSAAPH27R3E",
+          "x-amz-id-2": "yl84AXTH0i1oW7BCY95f08vw7OU5LxrmCgMK+tlzjvcZ7dfj0IfkR5duwMxJB58A3B72Mrf90slG66ihH5RgRb+o32N7Crup"
+        },
+        "s3": {
+          "s3SchemaVersion": "1.0",
+          "configurationId": "s3-bucket-eventnoti",
+          "bucket": {
+            "name": "speech-to-text-s3bucket",
+            "ownerIdentity": {
+              "principalId": "A10Q75PPVR1IXI"
+            },
+            "arn": "arn:aws:s3:::speech-to-text-s3bucket"
+          },
+          "object": {
+            "key": "Sample-Video.mp4",
+            "size": 3368964,
+            "eTag": "5baa11f1b3e7f32561a58122efed4283",
+            "sequencer": "0066424B35835A496C"
+          }
+        }
+      }
+    ]
+  }
