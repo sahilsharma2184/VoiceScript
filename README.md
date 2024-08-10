@@ -23,8 +23,8 @@ VoiceScript is a robust and automated solution for transcribing audio and video 
 ![Lambda](Images/Lambda.png)&nbsp;&nbsp;&nbsp;&nbsp;
 ![Transcribe](Images/Transcribe.png)
 
-### AWS CloudWatch
-AWS CloudWatch monitors AWS resources and applications by collecting metrics, logs, and events. It provides insights into system performance and allows you to set alarms and view data to ensure smooth operation.
+
+<strong>AWS CloudWatch</strong> monitors AWS resources and applications by collecting metrics, logs, and events. It provides insights into system performance and allows you to set alarms and view data to ensure smooth operation.
 
 #### AWS S3
 Amazon S3 is a scalable, secure cloud storage service for storing and retrieving any amount of data. It’s perfect for managing files like documents, images, and videos, and integrates with other AWS services for easy data handling.
