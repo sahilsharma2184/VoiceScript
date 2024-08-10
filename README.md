@@ -32,7 +32,7 @@ VoiceScript is a robust and automated solution for transcribing audio and video 
 
 <strong>AWS Transcribe</strong> converts spoken language into written text using advanced machine learning. It supports multiple languages and handles various audio qualities, making it ideal for transcribing audio and video content.
 
-## Results
+## Execution Flow & Results
 
 * **The audio/video file is uploaded in the S3 bucket**
   ![S3bucket](Images/S3bucket.png)
