@@ -15,6 +15,7 @@ VoiceScript is a robust and automated solution for transcribing audio and video 
 <strong>State Monitoring & Management: </strong>The change in transcription job state triggers an additional Lambda function, ensuring that all post-transcription processes are executed smoothly and efficiently.
 
 <strong>Secure Output Storage: </strong> The resulting transcription text is securely stored in an Amazon S3 bucket, ready for easy access and further processing.
+
 ## Project Tech-Stack
 
 ![CloudWatch](Images/CloudWatch.png)&nbsp;&nbsp;&nbsp;&nbsp;
@@ -22,14 +23,14 @@ VoiceScript is a robust and automated solution for transcribing audio and video 
 ![Lambda](Images/Lambda.png)&nbsp;&nbsp;&nbsp;&nbsp;
 ![Transcribe](Images/Transcribe.png)
 
-#### AWS CloudWatch 
+<strong>AWS CloudWatch</strong>
 AWS CloudWatch monitors AWS resources and applications by collecting metrics, logs, and events. It provides insights into system performance and allows you to set alarms and view data to ensure smooth operation.
 
-#### AWS S3
+<strong>AWS S3</strong>
 Amazon S3 is a scalable, secure cloud storage service for storing and retrieving any amount of data. It’s perfect for managing files like documents, images, and videos, and integrates with other AWS services for easy data handling.
 
-#### AWS Lambda
+<strong>AWS Lambda</strong>
 AWS Lambda is a serverless computing service that runs code without needing to manage servers. It automates tasks, scales automatically, and charges only for the compute time used, making it a cost-effective solution for backend operations.
 
-#### AWS Transcribe
+<strong>AWS Transcribe</strong>
 AWS Transcribe converts spoken language into written text using advanced machine learning. It supports multiple languages and handles various audio qualities, making it ideal for transcribing audio and video content.
