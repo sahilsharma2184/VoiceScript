@@ -24,6 +24,6 @@ The resulting transcription text is securely stored in an Amazon S3 bucket, read
 ## Project Tech-Stack
 
 ![CloudWatch](Images/CloudWatch.png)&nbsp;&nbsp;&nbsp;&nbsp;
-![S3 Bucket](Images/S3.png)
-![Lambda](Images/Lambda.png)
+![S3 Bucket](Images/S3.png)&nbsp;&nbsp;&nbsp;&nbsp;
+![Lambda](Images/Lambda.png)&nbsp;&nbsp;&nbsp;&nbsp;
 ![Transcribe](Images/Transcribe.png)
