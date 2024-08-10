@@ -31,3 +31,21 @@ VoiceScript is a robust and automated solution for transcribing audio and video 
 <strong>AWS Lambda</strong> is a serverless computing service that runs code without needing to manage servers. It automates tasks, scales automatically, and charges only for the compute time used, making it a cost-effective solution for backend operations.
 
 <strong>AWS Transcribe</strong> converts spoken language into written text using advanced machine learning. It supports multiple languages and handles various audio qualities, making it ideal for transcribing audio and video content.
+
+## Results
+
+<strong>The audio/video file is uploaded in the S3 bucket</strong>
+![S3bucket](Images/S3bucket.png)
+
+
+<strong>AWS IAM: The role is executed here with 3 policies namely
+AccessS3ReadOnlyAccess
+AmazonTranscribeFullAccess
+CloudWatchFullAccess</strong>
+![IAM](Images/IAM.png)
+
+<strong>The purpose of Lambda function is to initiate a transcription job using the Amazon Transcribe service when an audio or video file is uploaded to an S3 bucket.</strong>
+![Lamda](Images/lambdaa.png)
+
+<strong>AWS Transcribe: Within the Transcription section of the project, the resulting text extracted from the audio/video file residing in the S3 bucket is displayed under the Transcription Preview section</strong>
+![Output](Images/ouput.png)
