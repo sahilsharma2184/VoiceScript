@@ -34,24 +34,24 @@ VoiceScript is a robust and automated solution for transcribing audio and video 
 
 ## Results
 
-<strong>-The audio/video file is uploaded in the S3 bucket</strong>
+<strong> - [The audio/video file is uploaded in the S3 bucket]</strong>
 ![S3bucket](Images/S3bucket.png)
 
 
 
-<strong>-AWS IAM: The role is executed here with 3 policies namely
-AccessS3ReadOnlyAccess
-AmazonTranscribeFullAccess
-CloudWatchFullAccess</strong>
+<strong> - [AWS IAM: The role is executed here with 3 policies namely]
+ - [AccessS3ReadOnlyAccess]
+ - [AmazonTranscribeFullAccess]
+ - [CloudWatchFullAccess]</strong>
 ![IAM](Images/IAM.png)
 
 
 
-<strong>-The purpose of Lambda function is to initiate a transcription job using the Amazon Transcribe service when an audio or video file is uploaded to an S3 bucket.</strong>
+<strong> - [The purpose of Lambda function is to initiate a transcription job using the Amazon Transcribe service when an audio or video file is uploaded to an S3 bucket.]</strong>
 ![Lamda](Images/lambdaa.png)
 
 
 
 
-<strong>-AWS Transcribe: Within the Transcription section of the project, the resulting text extracted from the audio/video file residing in the S3 bucket is displayed under the Transcription Preview section</strong>
+<strong> - [AWS Transcribe: Within the Transcription section of the project, the resulting text extracted from the audio/video file residing in the S3 bucket is displayed under the Transcription Preview section]</strong>
 ![Output](Images/ouput.png)
