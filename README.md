@@ -4,7 +4,7 @@ VoiceScript is a robust and automated solution for transcribing audio and video 
 
 ## Key Features
 
-<strong>Seamless Media Upload:<strong> Users can effortlessly upload audio or video files to an Amazon S3 bucket, initiating the transcription process.
+<strong>Seamless Media Upload:</strong> ####Users can effortlessly upload audio or video files to an Amazon S3 bucket, initiating the transcription process.
 
 #### Automated Processing
 The upload of a media file automatically triggers an AWS Lambda function, streamlining the transcription workflow.
