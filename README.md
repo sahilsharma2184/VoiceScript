@@ -4,8 +4,7 @@ VoiceScript is a robust and automated solution for transcribing audio and video 
 
 ## Key Features
 
-#### Seamless Media Upload
-Users can effortlessly upload audio or video files to an Amazon S3 bucket, initiating the transcription process.
+<strong>Seamless Media Upload:<strong> Users can effortlessly upload audio or video files to an Amazon S3 bucket, initiating the transcription process.
 
 #### Automated Processing
 The upload of a media file automatically triggers an AWS Lambda function, streamlining the transcription workflow.
@@ -28,7 +27,7 @@ The resulting transcription text is securely stored in an Amazon S3 bucket, read
 ![Lambda](Images/Lambda.png)&nbsp;&nbsp;&nbsp;&nbsp;
 ![Transcribe](Images/Transcribe.png)
 
-#### AWS CloudWatch
+#### AWS CloudWatch 
 AWS CloudWatch monitors AWS resources and applications by collecting metrics, logs, and events. It provides insights into system performance and allows you to set alarms and view data to ensure smooth operation.
 
 #### AWS S3
@@ -36,7 +35,6 @@ Amazon S3 is a scalable, secure cloud storage service for storing and retrieving
 
 #### AWS Lambda
 AWS Lambda is a serverless computing service that runs code without needing to manage servers. It automates tasks, scales automatically, and charges only for the compute time used, making it a cost-effective solution for backend operations.
-
 
 #### AWS Transcribe
 AWS Transcribe converts spoken language into written text using advanced machine learning. It supports multiple languages and handles various audio qualities, making it ideal for transcribing audio and video content.
