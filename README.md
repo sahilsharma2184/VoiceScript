@@ -26,11 +26,11 @@ The resulting transcription text is securely stored in an Amazon S3 bucket, read
 ![CloudWatch](Images/CloudWatch.png) 
 Monitors and logs AWS resources and applications, offering insights through metrics, alarms, and dashboards.
 
-![S3 Bucket](Images\S3.png)
+![S3 Bucket](Images/S3.png)
 Provides scalable object storage for any type of data, with features like versioning, lifecycle policies, and encryption.
 
-![Lambda](Images\Lambda.png)
+![Lambda](Images/Lambda.png)
 Executes code in response to events without managing servers, automatically scaling based on demand.
 
-![Transcribe](Images\Transcribe.png)
+![Transcribe](Images/Transcribe.png)
 Converts audio to text using automatic speech recognition, supporting real-time and batch transcription with customizable vocabularies.
