@@ -23,7 +23,7 @@ The change in transcription job state triggers an additional Lambda function, en
 The resulting transcription text is securely stored in an Amazon S3 bucket, ready for easy access and further processing.
 ## Project Tech-Stack
 
-![CloudWatch](Images/CloudWatch.png) 
+![CloudWatch](Images/CloudWatch.png)&nbsp;&nbsp;&nbsp;&nbsp;
 ![S3 Bucket](Images/S3.png)
 ![Lambda](Images/Lambda.png)
 ![Transcribe](Images/Transcribe.png)
